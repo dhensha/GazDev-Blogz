@@ -1,0 +1,2 @@
+# GazDev-Blogz
+leszgo strezs
