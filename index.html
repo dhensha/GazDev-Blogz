@@ -90,6 +90,21 @@
         <p>Most browser store up to 5MB of data per domain in a storage object.</p>
         <p> Should a site require more than the 5MB of data, typically the browser will ask the user for permission to store more data (never rely on users agreeing to give a site more space)</p>
         <p>For security protection, browsers employ a same origin policy, which means that data can only be accessed by other pages in the same origin</p>
-        
+
+        <h1>Week 8 Blog</h1>
+        <p>I learnt how to do jQuery to make things faster and also about API which is to leverage on others.</p>
+        <p>In jQuery, I learnt about scripts which is when a browser starts to download a Javascript file, it stops all downloads and pauses to lay the page until the script has finished loading which is why we place the script at the end of the page before closing the body tag so that it will not affect the rendering of the page.</p>
+        <p>How to use place the scripts? Whe placed in the head tag, it is to be best avoided as pages will load slowly. DOM content is not loaded when the script is executed so you have to wait for an event like load or DOMContentLoaded to trigger your functions
+        If you muse use a script tag element with the head of the page, use it just before the closing </head> tag </p>
+        <p>Whereas in the page, its also best avoided as the head and the pages seem slower to load too but certain javascript calls might not work as we coul be referencing elements above the script</p>
+        <p>Before the closing body tag, the script is not blocking other things from downloading. The DOM has already loaded by the time the script is executed.</p>
+        <p>As for jQuery, I was able to learn that we can select or find elements, update their content,size,visibility and also simplify event handling.</p>
+        <brk></brk>
+        <p>In API, I was able to learn about AJAX is a technique for loading data into part of a page without having to refresh the entire page. The data is often sent in a format called JavaScript  Object Notation (or JSON)
+        It the ability to load new content into part of a page improves the user experience because the user does not have to wait for an entire page to load if only a portion of the page is being updated.</p>
+        <p> I also learnt about FETCH which is by fetching a JSON file across the network and printing it to the console. The simplest use of fetch takes on arguement - the path to the resourse yo want to fetch and returns a promise containing the response ( a Response object). </p>
+        <p>AJAX = Asynchronous Javascript and XML. Technique for creating fast & dynamic web page 
+        Allows web pages or content to be updated asynchronously by exchanging small amounts of data with the server behind the scenes   
+        </p>
     </body>
 </html>
